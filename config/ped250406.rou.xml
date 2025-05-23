@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-05-22 18:10:06 by Eclipse SUMO netedit Version 1.22.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="DEFAULT_PEDTYPE" length="0.80" vClass="pedestrian" width="0.60" height="1.80" color="red" imgFile="C:\Users\hope7\sumo\ped250406\pedestrian"/>
+    <vType id="t_0"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <trip id="car_0" depart="0.00" departPos="20.00" from="-E2" to="-E1"/>
+    <trip id="car_1" depart="0.00" from="E0" to="E2"/>
+    <person id="ped_1" depart="0.00" departPos="47.00">
+        <personTrip from="-E0" to="-E00" lines="ANY"/>
+    </person>
+    <person id="ped_2" depart="0.00" departPos="50.00">
+        <personTrip from="E0" to="E0.69" lines="ANY"/>
+    </person>
+</routes>
